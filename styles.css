@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+header,
+.intro,
+footer {
+    background-color: #1F2937;
+    color: white;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.hlink {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    margin: 24px;
+    padding: 16px;
+    display: flex;
+}
+
+.signup button {
+    margin-left: auto;
+}
