@@ -68,6 +68,11 @@ main {
 
 /* Hero Section, button at bottom */
 
+.introcon {
+    margin: 16px 100px;
+    display: flex;
+
+}
 
 .intro h1 {
     font-size: 48px;
@@ -81,7 +86,11 @@ main {
 }
 
 .intro img {
-    height: 300px;
+    height: 250px;
+}
+
+.part2 {
+    margin-left: auto;
 }
 
 
@@ -110,6 +119,7 @@ main {
 .container img {
     height: 100px;
     width: 150px;
+    border-radius: 7px;
 }
 
 .container div {
@@ -176,6 +186,7 @@ button {
 
 .intro button {
     border: 0px;
+    margin: 16px;
 }
 
 .signup button {
