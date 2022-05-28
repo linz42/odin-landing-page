@@ -1,3 +1,6 @@
+/* Whole document */
+
+
 * {
     box-sizing: border-box;
     font-family: Roboto;
@@ -9,6 +12,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+
+/* Header and footer */
+
 
 header {
     display: flex;
@@ -24,60 +31,14 @@ footer {
 footer {
     margin-top: auto;
     width: 100%;
-    padding: 8px;
+    padding: 24px;
     text-align: center;
     font-size: 14px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
 }
 
 a {
     text-decoration: none;
     color: white;
-}
-
-.intro h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-}
-
-.intro p {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.intro img {
-    height: 300px;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
-
-.container img {
-    height: 100px;
-    width: 150px;
-}
-
-button {
-    background-color: #3882F6;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 8px 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-}
-
-.intro button {
-    border: 0px;
 }
 
 .logo {
@@ -95,33 +56,73 @@ button {
     padding: 0px 16px;
 }
 
+
+/* Main webpage */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Hero Section, button at bottom */
+
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro img {
+    height: 300px;
+}
+
+
+/* Examples Section */
+
+
+.examples {
+    margin: 16px 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 24px;
+}
+
 .examples h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: bold;
 }
 
+.container img {
+    height: 100px;
+    width: 150px;
+}
+
+.container div {
+    width: 150px;
+    padding-top: 12px;
+}
+
+
+/* Quote Section */
+
+
 .quote {
     background-color: #E5E7EB;
-}
-
-.signup {
-    background-color: #3882F6;
-    padding: 16px;
-    display: flex;
-    border-radius: 10px;
-    margin: 16px;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-.signupblurb {
-    line-height: 8px;
-}
-
-.signup button {
-    margin-left: auto;
 }
 
 .thequote {
@@ -132,10 +133,51 @@ button {
 
 .thequote,
 .author {
-    margin: 16px 150px;
+    margin: 16px 100px;
 }
 
 .author {
     text-align: right;
     font-weight: bold;
+}
+
+
+/* Sign Up Section */
+
+
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 16px 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.signupblurb {
+    line-height: 8px;
+}
+
+
+/* Buttons */
+
+
+button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.intro button {
+    border: 0px;
+}
+
+.signup button {
+    margin-left: auto;
 }
